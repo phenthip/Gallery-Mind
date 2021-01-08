@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    text-align: center;
+    padding: 2px 15px;
+}
+h1{
+    font-family: cursive;
+    font-size: 40px;
+}
+input{
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+input:focus{
+    outline: none;
+}
+input:before{
+   content: "\f095";
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gallery img{
+    flex: 1;
+    object-fit: cover;
+    width: 30%;
+    height: 260px;
+    padding: 20px;
+}
